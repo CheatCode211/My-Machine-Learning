@@ -1,0 +1,74 @@
+Failed with encoding: utf-8 - 'utf-8' codec can't decode byte 0xad in position 73: invalid start byte
+Successfully read the CSV file with encoding: latin1
+                                              domain   ranking mld_res  \
+0  nobell.it/70ffb52d079109dca5664cce6f317373782/...  10000000     1.0
+1  www.dghjdgf.com/paypal.co.uk/cycgi-bin/webscrc...  10000000     0.0
+2  serviciosbys.com/paypal.cgi.bin.get-into.herf....  10000000     0.0
+3  mail.printakid.com/www.online.americanexpress....  10000000     0.0
+4  thewhiskeydregs.com/wp-content/themes/widescre...  10000000     0.0
+  mld.ps_res  card_rem  ratio_Rrem  ratio_Arem  jaccard_RR  jaccard_RA  \
+0        0.0      18.0  107.611111  107.277778         0.0         0.0
+1        0.0      11.0  150.636364  152.272727         0.0         0.0
+2        0.0      14.0   73.500000   72.642857         0.0         0.0
+3        0.0       6.0  562.000000  590.666667         0.0         0.0
+4        0.0       8.0   29.000000   24.125000         0.0         0.0
+   jaccard_AR  jaccard_AA jaccard_ARrd jaccard_ARrem  label
+0         0.0         0.0          0.8      0.795729    1.0
+1         0.0         0.0            0      0.768577    1.0
+2         0.0         0.0            0      0.726582    1.0
+3         0.0         0.0            0       0.85964    1.0
+4         0.0         0.0            0      0.748971    1.0
+C:\Users\PC\AppData\Local\Temp\ipykernel_17048\3038593440.py:6: DtypeWarning: Columns (1,2,3,11,12) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(r"C:\Users\PC\Documents\MLCodes\urlset.csv", encoding=encoding, on_bad_lines='skip')
+                                              domain   ranking mld_res  \
+0  nobell.it/70ffb52d079109dca5664cce6f317373782/...  10000000     1.0
+1  www.dghjdgf.com/paypal.co.uk/cycgi-bin/webscrc...  10000000     0.0
+2  serviciosbys.com/paypal.cgi.bin.get-into.herf....  10000000     0.0
+3  mail.printakid.com/www.online.americanexpress....  10000000     0.0
+4  thewhiskeydregs.com/wp-content/themes/widescre...  10000000     0.0
+  mld.ps_res  card_rem  ratio_Rrem  ratio_Arem  jaccard_RR  jaccard_RA  \
+0        0.0      18.0  107.611111  107.277778         0.0         0.0
+1        0.0      11.0  150.636364  152.272727         0.0         0.0
+2        0.0      14.0   73.500000   72.642857         0.0         0.0
+3        0.0       6.0  562.000000  590.666667         0.0         0.0
+4        0.0       8.0   29.000000   24.125000         0.0         0.0
+   jaccard_AR  jaccard_AA jaccard_ARrd jaccard_ARrem
+0         0.0         0.0          0.8      0.795729
+1         0.0         0.0            0      0.768577
+2         0.0         0.0            0      0.726582
+3         0.0         0.0            0       0.85964
+4         0.0         0.0            0      0.748971
+Index(['domain', 'ranking', 'mld_res', 'mld.ps_res', 'jaccard_ARrd',
+       'jaccard_ARrem'],
+      dtype='object')
+domain: ['nobell.it/70ffb52d079109dca5664cce6f317373782/login.SkyPe.com/en/cgi-bin/verification/login/70ffb52d079109dca5664cce6f317373/index.php?cmd=_profile-ach&outdated_page_tmpl=p/gen/failed-to-load&nav=0.5.1&login_access=1322408526'
+ 'www.dghjdgf.com/paypal.co.uk/cycgi-bin/webscrcmd=_home-customer&nav=1/loading.php'
+ 'serviciosbys.com/paypal.cgi.bin.get-into.herf.secure.dispatch35463256rzr321654641dsf654321874/href/href/href/secure/center/update/limit/seccure/4d7a1ff5c55825a2e632a679c2fd5353/'
+ ... 'www.gamespot.com/xbox360/action/deadspace/'
+ 'en.wikipedia.org/wiki/Dead_Space_(video_game)'
+ 'www.angelfire.com/goth/devilmaycrytonite/']
+ranking: ['10000000' '1' '602' ... 325392 87932 591792]
+mld_res: ['1.0' '0.0' nan 'ë\x87\x05vbþÍÈ\x18wÉ;é]bu\x8avfnfsi¤\x17iOÕFÔºc\x89' '0'
+ '178' '10000000' '9' 'Tø\x84¬\t\\ÌªY\x1dD:"'
+ "'Þ@\x85Þ\x17òÙl\x14dðR\x1e<jyG\x80`$ØÃhé\x0e-3\x93MÁ\x90\x9f³9\x8c?t?\x0f\x18ñX\x9aõ\x08scJúB\\\x0foÚÆ\x81VDñÔÑ§¿ÑÕ"
+ 'MJ¾#\x1b<M\x86·æèÈ§»¢º\x8dem\x03áï\x9e·Låï\xadµ=\x99\x12\x97:xÎ\x0büHÖÞÞ¸¼^§](6¼\x12 ö\x13OnÄM¤´G@at±Û \x9c×1È\x01v\x19ï¼´íMF~¿D\x03\x03%f³.\x92{\x10&\x8fÜXO\x1d\x81\x0b¼\x0fáº\x98$Éâ\xa0<zÄ²¯'
+ '\x94\x02ß1®\x05\x94à\x15Éªgãt¨Z\x18"©¬\x8f£Ý\x95Z\x05ãå\'ä\x04ûxÂË`\x17é\x90}ié\x98ý\x81\x83²\x89C\x1dÔ'
+ '#Î´°Ë=\x91\x92\x7fPRºÉb.R²I\x8aDxÆ\x8b\x14"üª\x1c&ÚÚËÊ\x1aÎ\x9asöÊ\x07\x0fÖø\x9dm!âN6\x1e\x9fï\x967¤\x8fÅÙw£ÿ\x96û\xadJ6-\x9d\x9eêÊ\x9e'
+ 'ºÁâÆ8\x98=HÚ\x1eBç\x83\x10\x04\x8c}ðæÎ\x8br&\x1eSæSÄPeøÌ+ÆR\\Cî\x1f%ÿ¼xä\x88µ\x8aUy\x16_@Ëy\x96Ñ.\x03ô®:V'
+ 'oI\x1f\x8b²ïGÿ-÷Z\x94l[;=Õ\x95<\x01\x01\x1cÝ\x91\x1aqÖð\x1d\x85KÈ:ô\x80ùkú\xa0\x96wã¸¡\x9fëÖC\x91\x9aÿ¸8\x90½\xa0°46%\x1dv\x80àêÂ\x1eèê¤\x1a'
+ '«À2\x12lq¸t\x17\x16\x9bÉæàHOÑ\x88ÎOû\x0b\x87\x8dx¬Oj\x849\x91¡}!.Góík\x05«"øêh\x13Ïàª\x85)\x8c¬8o¶\x14?=æ\x97M}ü&RÔMh½\x82³\x95\x9e\x8cÎ|ùzûpB#'
+ '\tMýrH\x9aYu\x83Å\x8cq0z\x91´<\x85Ï\x06 \t\x18ûáÍ\x9d\x16äL<§Ì§\x88\xa0Ëñ\x98W\x8c¤¸\x87Ü>KÿxñÉ\x11k\x14ªò'
+ 'P\x8bò¨p\x9bkk/(k:iÏÛ(\x1c?[âu´\x87\x898Øz\x7f¾XÞ\x92?\x17eÞ\x8fþ[îµ(Ø¶v{«*x\x02\x029»"4ã\xadà;'
+ "'\x8eÀ\x85Þ\x07ðÝL\x12dñP\x1e=bYW\x80d$Øãpè.-7\x93ÍÀ\x90\x9f£\x11\x9c\x9fö\x17\x0f\x1añX\x9eÕ\x08s#BúB\\\x8fçÚÖ\x0bVEñÔÐ'\x9fÁU"
+ '11' 0.0 1.0]
+mld.ps_res: ['0.0' '1.0' '11' nan '0' '189' '7'
+ '¾\x81\x96ó-¢\\\x07é\\t¬\x1al\x17¼\x96îìî×lNz\x994Ôïårâ\x97~\x7f\x8dZ¯îÂ-ê\x9bØç0\x9c\x1b8'
+ '148.818182' 0.0 1.0]
+jaccard_ARrd: ['0.8' '0' '0.886969' ... 0.585586 0.45098 0.73494]
+jaccard_ARrem: ['0.795729' '0.768577' '0.726582' ... 0.785388 0.858065 0.714623]
+Columns with NaN values: ['ranking', 'mld_res', 'mld.ps_res', 'card_rem', 'ratio_Rrem', 'ratio_Arem', 'jaccard_RR', 'jaccard_RA', 'jaccard_AR', 'jaccard_AA', 'jaccard_ARrd', 'jaccard_ARrem', 'label']
+c:\Users\PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\extmath.py:1137: RuntimeWarning: invalid value encountered in divide
+  updated_mean = (last_sum + new_sum) / updated_sample_count
+c:\Users\PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\extmath.py:1142: RuntimeWarning: invalid value encountered in divide
+  T = new_sum / new_sample_count
+c:\Users\PC\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\extmath.py:1162: RuntimeWarning: invalid value encountered in divide

@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.1",
+    "heartbeatAt": "2024-07-23T10:46:21.940895",
+    "startedAt": "2024-07-23T10:46:20.378046",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/CheatCode211/My-Machine-Learning.git",
+        "commit": "2b8cba82282cffcaa59f07d4290de82c86e01660"
+    },
+    "email": "jmanyuat@gmail.com",
+    "root": "C:/Users/PC/Documents/MLCodes",
+    "host": "MONJE",
+    "username": "PC",
+    "executable": "c:\\Users\\PC\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1910.0,
+        "min": 0.0,
+        "max": 2112.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1910.0,
+            "min": 0.0,
+            "max": 2112.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 475.31737899780273,
+            "used": 186.20809936523438
+        }
+    },
+    "memory": {
+        "total": 15.846881866455078
+    }
+}

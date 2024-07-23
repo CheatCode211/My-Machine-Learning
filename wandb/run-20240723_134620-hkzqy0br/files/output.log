@@ -1,0 +1,75 @@
+[notice] A new release of pip is available: 23.2.1 -> 24.1.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+Collecting chardet
+  Obtaining dependency information for chardet from https://files.pythonhosted.org/packages/38/6f/f5fbc992a329ee4e0f288c1fe0e2ad9485ed064cac731ed2fe47dcc38cbf/chardet-5.2.0-py3-none-any.whl.metadata
+  Downloading chardet-5.2.0-py3-none-any.whl.metadata (3.4 kB)
+Downloading chardet-5.2.0-py3-none-any.whl (199 kB)
+   ---------------------------------------- 0.0/199.4 kB ? eta -:--:--
+   -- ------------------------------------- 10.2/199.4 kB ? eta -:--:--
+   ------ -------------------------------- 30.7/199.4 kB 435.7 kB/s eta 0:00:01
+   ------ -------------------------------- 30.7/199.4 kB 435.7 kB/s eta 0:00:01
+   ------------ -------------------------- 61.4/199.4 kB 297.7 kB/s eta 0:00:01
+   ------------------ -------------------- 92.2/199.4 kB 374.1 kB/s eta 0:00:01
+   ------------------ -------------------- 92.2/199.4 kB 374.1 kB/s eta 0:00:01
+   ------------------ -------------------- 92.2/199.4 kB 374.1 kB/s eta 0:00:01
+   ----------------------- -------------- 122.9/199.4 kB 327.4 kB/s eta 0:00:01
+   --------------------------------- ---- 174.1/199.4 kB 419.0 kB/s eta 0:00:01
+   -------------------------------------- 199.4/199.4 kB 448.2 kB/s eta 0:00:00
+Installing collected packages: chardet
+Successfully installed chardet-5.2.0
+Detected encoding: MacRoman
+Detected encoding: MacRoman
+Failed with encoding: utf-8 - 'utf-8' codec can't decode byte 0xad in position 73: invalid start byte
+Successfully read the CSV file with encoding: latin1
+                                              domain   ranking mld_res  \
+0  nobell.it/70ffb52d079109dca5664cce6f317373782/...  10000000     1.0
+1  www.dghjdgf.com/paypal.co.uk/cycgi-bin/webscrc...  10000000     0.0
+2  serviciosbys.com/paypal.cgi.bin.get-into.herf....  10000000     0.0
+3  mail.printakid.com/www.online.americanexpress....  10000000     0.0
+4  thewhiskeydregs.com/wp-content/themes/widescre...  10000000     0.0
+  mld.ps_res  card_rem  ratio_Rrem  ratio_Arem  jaccard_RR  jaccard_RA  \
+0        0.0      18.0  107.611111  107.277778         0.0         0.0
+1        0.0      11.0  150.636364  152.272727         0.0         0.0
+2        0.0      14.0   73.500000   72.642857         0.0         0.0
+3        0.0       6.0  562.000000  590.666667         0.0         0.0
+4        0.0       8.0   29.000000   24.125000         0.0         0.0
+   jaccard_AR  jaccard_AA jaccard_ARrd jaccard_ARrem  label
+0         0.0         0.0          0.8      0.795729    1.0
+1         0.0         0.0            0      0.768577    1.0
+2         0.0         0.0            0      0.726582    1.0
+3         0.0         0.0            0       0.85964    1.0
+4         0.0         0.0            0      0.748971    1.0
+C:\Users\PC\AppData\Local\Temp\ipykernel_21832\2531699296.py:8: DtypeWarning: Columns (1,2,3,11,12) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(r"C:\Users\PC\Documents\MLCodes\urlset.csv", encoding=encoding, on_bad_lines='skip')
+                                              domain   ranking mld_res  \
+0  nobell.it/70ffb52d079109dca5664cce6f317373782/...  10000000     1.0
+1  www.dghjdgf.com/paypal.co.uk/cycgi-bin/webscrc...  10000000     0.0
+2  serviciosbys.com/paypal.cgi.bin.get-into.herf....  10000000     0.0
+3  mail.printakid.com/www.online.americanexpress....  10000000     0.0
+4  thewhiskeydregs.com/wp-content/themes/widescre...  10000000     0.0
+  mld.ps_res  card_rem  ratio_Rrem  ratio_Arem  jaccard_RR  jaccard_RA  \
+0        0.0      18.0  107.611111  107.277778         0.0         0.0
+1        0.0      11.0  150.636364  152.272727         0.0         0.0
+2        0.0      14.0   73.500000   72.642857         0.0         0.0
+3        0.0       6.0  562.000000  590.666667         0.0         0.0
+4        0.0       8.0   29.000000   24.125000         0.0         0.0
+   jaccard_AR  jaccard_AA jaccard_ARrd jaccard_ARrem
+0         0.0         0.0          0.8      0.795729
+1         0.0         0.0            0      0.768577
+2         0.0         0.0            0      0.726582
+3         0.0         0.0            0       0.85964
+4         0.0         0.0            0      0.748971
+domain            object
+ranking           object
+mld_res           object
+mld.ps_res        object
+card_rem         float64
+ratio_Rrem       float64
+ratio_Arem       float64
+jaccard_RR       float64
+jaccard_RA       float64
+jaccard_AR       float64
+jaccard_AA       float64
+jaccard_ARrd      object
+jaccard_ARrem     object
+dtype: object
